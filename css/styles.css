@@ -1,0 +1,60 @@
+body {
+  text-align: center;
+  background-color: #d2b48c;
+  margin-left: 20%;
+  margin-right: 20%;
+  border: 1px solid rgb(68, 47, 4);
+  font-family: sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  position: relative;
+  background-color: #503407;
+}
+header img {
+  height: 100px;
+}
+
+.headline {
+  font-size: 3rem;
+}
+
+nav {
+  position: absolute;
+  right: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 1.2rem;
+  margin-right: 1rem;
+}
+
+nav a:hover {
+  color: black;
+}
+
+main {
+  height: 80vh;
+  background-image: url("../img/shop.jpg");
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.drinks {
+  background-color: rgba(0, 0, 0, 0.9);
+  border-radius: 5px;
+}
+
+footer {
+  background-color: black;
+  padding: 2rem 0;
+  color: #d2b48c;
+}
