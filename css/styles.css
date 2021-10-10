@@ -1,10 +1,10 @@
 body {
   text-align: center;
-  background-color: #d2b48c;
+  background-color: #e2dfd9;
   margin-left: 20%;
   margin-right: 20%;
   border: 1px solid rgb(68, 47, 4);
-  font-family: sans-serif;
+  font-family: 'Dancing Script', cursive;
 }
 
 header {
@@ -13,7 +13,7 @@ header {
   align-items: center;
   gap: 1rem;
   position: relative;
-  background-color: #503407;
+  background-color: rgba(114, 153, 235, 0.9);
 }
 header img {
   height: 100px;
@@ -36,12 +36,12 @@ nav a {
 }
 
 nav a:hover {
-  color: black;
+  color: rgb(153, 0, 0);
 }
 
 main {
   height: 80vh;
-  background-image: url("../img/shop.jpg");
+  background-image: url("../img/istockphoto-1268242083-170667a.jpg");
   color: aliceblue;
   display: flex;
   justify-content: center;
@@ -49,12 +49,39 @@ main {
 }
 
 .drinks {
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(114, 153, 235, 0.9);
   border-radius: 5px;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 footer {
-  background-color: black;
+  background-color:  rgba(114, 153, 235, 0.9);
   padding: 2rem 0;
-  color: #d2b48c;
+  color: #ffffff;
+}
+.cap {
+  height: 400px;
+  justify-self: flex-start;
+  margin-bottom: 2rem;
+  transition: transform .5s ease-in;
+  border-radius: 10px;
+}
+
+.cap:hover {
+  transform: scale(1.1);
+}
+ul {
+  list-style: none;
+  margin-top: 2rem;
+  text-align: center;
+}
+ul li {
+  font-size: 2rem;
+}
+ul li span {
+  color: blue;
+}
+
+h1.headline {
+  color: white;
 }
